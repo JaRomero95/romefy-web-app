@@ -1,0 +1,11 @@
+const {
+  VUE_APP_API_PROTOCOL: API_PROTOCOL,
+  VUE_APP_API_HOST: API_HOST,
+  VUE_APP_API_PORT: API_PORT
+} = process.env;
+
+export {
+  API_PROTOCOL,
+  API_HOST,
+  API_PORT
+};
