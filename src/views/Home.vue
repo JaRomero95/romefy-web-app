@@ -9,7 +9,7 @@
         v-for="multimediaFile in multimediaFiles"
         :key="multimediaFile.id"
       >
-        <td>{{multimediaFile.name}}</td>
+        <td>{{multimediaFile.title}}</td>
         <td>
           <button
             @click="setSelectedMultimediaFile(multimediaFile)"
